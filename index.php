@@ -14,7 +14,9 @@
 <body>
 
 <div class="tof">
-    <div class="barre" style="border: 3px solid black"></div>
+    <div id="makeMeScrollable">
+
+    </div>
 </div>
 
 <div>

@@ -48,4 +48,12 @@ L'orsque l'on clique sur un onglet :
         afficherOnglet(a)
     }
 
+    $(document).ready(function () {
+        $("#makeMeScrollable").smoothDivScroll({
+            mousewheelScrolling: "allDirections",
+            manualContinuousScrolling: true,
+            autoScrollingMode: "onStart"
+        });
+    });
+
 })();
