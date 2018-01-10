@@ -21,7 +21,6 @@
     <ul class="tabs">
         <li class="active"><a href="#home">Tailles / modèles</a></li>
         <li><a href="#mentions">Perles</a></li>
-        <li><a href="#about">Élements métal</a></li>
     </ul>
     <div class="tabs-content">
         <div class="tab-content active" id="home">
@@ -82,7 +81,6 @@
                 </section>
             </div>
         </div>
-        <div class="tab-content" id="about">3333333333333333333333333333333333</div>
     </div>
 </div>
 
