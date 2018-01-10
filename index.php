@@ -14,8 +14,8 @@
 <body>
 
 <div class="tof">
-    <div id="makeMeScrollable">
-
+    <div class="barre" style="border: 3px solid black">
+        <p>overflow:scroll</p>
     </div>
 </div>
 
