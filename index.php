@@ -1,3 +1,10 @@
+<?php
+
+$bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'root', 'root');
+
+?>
+
+
 <!doctype html>
 <html lang=fr>
 <head>
@@ -99,12 +106,12 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-">
                                 <div class="doc">
                                     <section id="menu1">
-                                        <a href="#menu1">Menu 1</a>
-                                        <img src="image/logo_fr.jpg">
+                                        <a href="#menu1">Basique</a>
+                                        <p></p>
                                     </section>
 
                                     <section id="menu2">
-                                        <a href="#menu2">Menu 2</a>
+                                        <a href="#menu2">Premium</a>
                                         <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
                                             zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
                                             sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
@@ -113,7 +120,7 @@
                                     </section>
 
                                     <section id="menu3">
-                                        <a href="#menu3">Menu 3</a>
+                                        <a href="#menu3">Rares</a>
                                         <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
                                             zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
                                             sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
