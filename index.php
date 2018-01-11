@@ -107,42 +107,32 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                 <div class="doc">
                                     <section id="menu1">
                                         <a href="#menu1">Basique</a>
-                                        <p><img src="image/8mm-standar/ Ebene.png"></p>
-                                        <p><img src="image/8mm-standar/BlueLaceAgathe.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of  Ebene.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of BlueLaceAgathe.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of CorailFossilisée.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Dumortierite.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Hematite.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Howlite.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of JaspeImperiale.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of LavaBK.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Nacre.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Obsidian.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of OeilDeTaureau.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of PetrifiedWood.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of QuartzRose.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Rhodocrosite.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of RoseQuartz.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Rubyzoisite.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of Sodalite.png"></p>
-                                        <p><img src="image/8mm-standar/Copy of TigerEye.png"></p>
-                                        <p><img src="image/8mm-standar/CorailFossilisée.png"></p>
-                                        <p><img src="image/8mm-standar/Dumortierite.png"></p>
-                                        <p><img src="image/8mm-standar/Hematite.png"></p>
-                                        <p><img src="image/8mm-standar/Howlite.png"></p>
-                                        <p><img src="image/8mm-standar/JaspeImperiale.png"></p>
-                                        <p><img src="image/8mm-standar/LavaBK.png"></p>
-                                        <p><img src="image/8mm-standar/Nacre.png"></p>
-                                        <p><img src="image/8mm-standar/Obsidian.png"></p>
-                                        <p><img src="image/8mm-standar/OeilDeTaureau.png"></p>
-                                        <p><img src="image/8mm-standar/PetrifiedWood.png"></p>
-                                        <p><img src="image/8mm-standar/QuartzRose.png"></p>
-                                        <p><img src="image/8mm-standar/Rhodocrosite.png"></p>
-                                        <p><img src="image/8mm-standar/RoseQuartz.png"></p>
-                                        <p><img src="image/8mm-standar/Rubyzoisite.png"></p>
-                                        <p><img src="image/8mm-standar/Sodalite.png"></p>
-                                        <p><img src="image/8mm-standar/TigerEye.png"></p>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/ Ebene.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/BlueLaceAgathe.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/CorailFossilisée.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Dumortierite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Hematite.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/LavaBK.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Nacre.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Obsidian.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Howlite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/JaspeImperiale.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/QuartzRose.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Rhodocrosite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/RoseQuartz.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/OeilDeTaureau.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/PetrifiedWood.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/TigerEye.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Rubyzoisite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Sodalite.png" width="72" height="72"></p>
+                                        </div>
                                     </section>
 
                                     <section id="menu2">
