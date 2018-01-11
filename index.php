@@ -95,34 +95,35 @@
                         <input TYPE="radio" NAME=Bracelet VALUE=Divorce class="decale4">XL
                     </div>
                     <div class="tab-content" id="mentions">
-                        <div class="doc">
-                            <section id="menu1">
-                                <a href="#menu1">Menu 1</a>
-                                <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
-                                    zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;oeksdjxhfoezkjdx
-                                    sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
-                                    erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
-                                    sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
-                            </section>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-">
+                                <div class="doc">
+                                    <section id="menu1">
+                                        <a href="#menu1">Menu 1</a>
+                                        <img src="image/logo_fr.jpg">
+                                    </section>
 
-                            <section id="menu2">
-                                <a href="#menu2">Menu 2</a>
-                                <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
-                                    zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
-                                    sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
-                                    erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
-                                    sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
-                            </section>
+                                    <section id="menu2">
+                                        <a href="#menu2">Menu 2</a>
+                                        <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
+                                            zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
+                                            sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
+                                            erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
+                                            sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
+                                    </section>
 
-                            <section id="menu3">
-                                <a href="#menu3">Menu 3</a>
-                                <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
-                                    zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
-                                    sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
-                                    erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
-                                    sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
-                            </section>
+                                    <section id="menu3">
+                                        <a href="#menu3">Menu 3</a>
+                                        <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
+                                            zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
+                                            sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
+                                            erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
+                                            sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
