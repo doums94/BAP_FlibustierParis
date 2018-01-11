@@ -57,7 +57,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row bas">
                 <div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
                     <button type="button" class="btn black btn-lg btn-block" style="color: white">Prix</button>
                 </div>
