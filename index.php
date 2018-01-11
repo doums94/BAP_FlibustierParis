@@ -17,6 +17,15 @@
 
 <body>
 
+<div align="center" class="col">
+    <img src="image/logo_fr.jpg">
+</div>
+
+<header>
+
+
+</header>
+
 <div class="container">
     <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1">
@@ -123,10 +132,11 @@
             </div>
         </div>
     </div>
-
 </div>
 
+<footer>
 
+</footer>
 
 <script src="jquery/dist/jquery.min.js"></script>
 <script src="app.js"></script>
