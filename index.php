@@ -28,7 +28,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1">
+        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
             <div class="tof">
                 <div class="barre" style="border: 3px solid black">
                     <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -51,15 +51,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Prix</button>
+                <div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
+                    <button type="button" class="btn black btn-lg btn-block" style="color: white">Prix</button>
                 </div>
-                <div class="col-md-6">
-                    <button type="button" class="btn btn-default btn-lg btn-block">Finalisation</button>
+                <div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
+                    <button type="button" class="btn black btn-lg btn-block" style="color: white">Finalisation</button>
                 </div>
             </div>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1">
+        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
             <div>
                 <ul class="tabs">
                     <li class="active"><a href="#home">Tailles / modèles</a></li>
@@ -127,8 +127,8 @@
                 </div>
             </div>
             <div>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Prix</button>
-                <button type="button" class="btn btn-default btn-lg btn-block">Finalisation</button>
+                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">Prix</button>
+                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">Finalisation</button>
             </div>
         </div>
     </div>
