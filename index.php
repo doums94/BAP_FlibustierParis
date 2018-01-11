@@ -19,7 +19,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1">
             <div class="tof">
                 <div class="barre" style="border: 3px solid black">
                     <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -41,24 +41,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Prix</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-default btn-lg btn-block">Finalisation</button>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" col-lg-4">
-            <p>
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
-                <button type="button" class="btn btn-default btn-lg">Large button</button>
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-5 col-xs-10 col-lg-5 col-sm-10 ">
+        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1">
             <div>
                 <ul class="tabs">
                     <li class="active"><a href="#home">Tailles / modèles</a></li>
@@ -125,12 +117,14 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Prix</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">Finalisation</button>
+            </div>
         </div>
     </div>
+
 </div>
-
-
-
 
 
 
