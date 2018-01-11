@@ -101,7 +101,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                         <input TYPE="radio" NAME=Bracelet VALUE=Marie >M
                         <input TYPE="radio" NAME=Bracelet VALUE=Divorce class="decale4">XL
                     </div>
-                    <div class="tab-content" id="mentions">
+                    <div class="tab-content gris" id="mentions">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-">
                                 <div class="doc">
@@ -137,20 +137,25 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
 
                                     <section id="menu2">
                                         <a href="#menu2">Premium</a>
-                                        <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
-                                            zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
-                                            sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
-                                            erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
-                                            sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
+                                        <div class="un">
+                                        <p><img src="image/8mm-premium/Eagle.png" width="72" height="72"></p>
+                                        <p><img src="image/8mm-premium/Garnet.png" width="72" height="72"></p>
+                                        <p><img src="image/8mm-premium/Hypersthene.png" width="72" height="72"></p>
+                                        <p><img src="image/8mm-premium/Labradorite.png" width="72" height="72"></p>
+                                        <p><img src="image/8mm-premium/LapisLazuli.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                        <p><img src="image/8mm-premium/OeilDeFaucon.png" width="72" height="72"></p>
+                                        <p><img src="image/8mm-premium/Spinel.png" width="72" height="72"></p>
+                                        </div>
                                     </section>
 
                                     <section id="menu3">
                                         <a href="#menu3">Rares</a>
-                                        <p>usdofuebrdsiukgfzeisdhfoziesdhfoizeuhksdjfv
-                                            zesdxfjhzegbsdxfiukjhcznedslxifhknczesdlxj;,fhcnozerkdsjhxfcezkdsjxhfvoeksdjxhfoezkjdx
-                                            sjdhfnchzesdkxjfhczelsdixf;khvn osdkux;fj,hvsdkxfujc,herdsxkferjdhxf
-                                            erygfuerzygsdfuyzgesdfgizsgdfiuvgrsiudfgivufsiufvhfisuchfiuvhdsiufhvisudhfv
-                                            sjdgfviukhsdfvkhfcihvfdkcjhbvkfjchbvkjfhbcgvkjfcgbvjkfsbkvjfncbkvjfckjv,nfbc</p>
+                                        <div class="un">
+                                        <p><img src="image/8mm-rare/Rubis.png" width="72" height="72"></p>
+                                        <p><img src="image/8mm-rare/Turquoise.png" width="72" height="72"></p>
+                                        </div>
                                     </section>
                                 </div>
                             </div>
