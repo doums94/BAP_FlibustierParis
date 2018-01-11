@@ -5,7 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
@@ -19,14 +22,21 @@
         <div class="col-md-4">
             <div class="tof">
                 <div class="barre" style="border: 3px solid black">
-                    <a class="btn btn-danger" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        Link with href
+                    <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        ?
                     </a>
                     <div class="collapse" id="collapseExample">
                         <div class="well">
-                            hcjcjhcjgxcjgxcjgckgkhvkhvjvichkhcchkkchchkchckhchcjgcghgccgjcjgcgjlsjd,bwxnfljd,wxnfvlkdswxnvlkdsjgnv
-                            sdkjgvb;,rndflkgc,nbldfkn,gvld kfxngvlkfdcn;blvgknbkdfdfl,ndfkbnmdfknbmkfnlmlsjmldlmsdmlknbt
-                            dfkjgbnmksfnblkgjnblknbklngbklt;fglkb;rnglkgbemtklf:;jgmlf:;cjgbmeklf:;
+                            <p>Étape 1 : Choix des tailles</p>
+
+                                  <p>Sélectionner le modèle voulu, puis la tailles des perles
+                                     ainsi que la tailles du bracellet.</p>
+
+                            <p>Étape 2 : Choix des perles</p>
+
+                                  <p>Vous pouvez selectionnez (nbr perles) parmis 3 catégoris :
+                                     basique , premium, et rares. Le prix varie en fonction de la
+                                     perles et de la catégorie.</p>
                         </div>
                     </div>
                 </div>
@@ -35,10 +45,20 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class=" col-lg-4">
+            <p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-default btn-lg">Large button</button>
+            </p>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12 ">
+        <div class="col-md-5 col-xs-10 col-lg-5 col-sm-10 ">
             <div>
                 <ul class="tabs">
                     <li class="active"><a href="#home">Tailles / modèles</a></li>
@@ -114,8 +134,7 @@
 
 
 
-<script src="js/bootstrap.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="jquery/dist/jquery.min.js"></script>
 <script src="app.js"></script>
 </body>
 
