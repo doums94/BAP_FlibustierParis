@@ -14,12 +14,8 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-
     <title>Document</title>
-
 </head>
 
 <body>
@@ -87,8 +83,13 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                         </div>
                         <div><b>Tailles des perles :</b></div>
                         <br>
-                        <input TYPE="radio" NAME=Perle VALUE=Marie>6 mm
-                        <input TYPE="radio" NAME=Perle VALUE=Divorce class="decale2">8 mm
+
+                        <input type="radio" name="perle" value="6mm" id="6mm">
+                        <label for="6mm">6mm</label>
+
+                        <input type="radio" name="perle" value="8mm" id="8mm">
+                        <label for="8mm">8mm</label>
+
                         <br>
                         <br>
                         <br>
@@ -104,7 +105,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                     <div class="tab-content gris" id="mentions">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-">
-                                <div class="doc">
+                                <div id="menu-6mm">
                                     <section id="menu1">
                                         <a href="#menu1">Basique</a>
                                         <div class="un">
@@ -138,23 +139,69 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                     <section id="menu2">
                                         <a href="#menu2">Premium</a>
                                         <div class="un">
-                                        <p><img src="image/8mm-premium/Eagle.png" width="72" height="72"></p>
-                                        <p><img src="image/8mm-premium/Garnet.png" width="72" height="72"></p>
-                                        <p><img src="image/8mm-premium/Hypersthene.png" width="72" height="72"></p>
-                                        <p><img src="image/8mm-premium/Labradorite.png" width="72" height="72"></p>
-                                        <p><img src="image/8mm-premium/LapisLazuli.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Eagle.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Garnet.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Hypersthene.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Labradorite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/LapisLazuli.png" width="72" height="72"></p>
                                         </div>
                                         <div class="un">
-                                        <p><img src="image/8mm-premium/OeilDeFaucon.png" width="72" height="72"></p>
-                                        <p><img src="image/8mm-premium/Spinel.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/OeilDeFaucon.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Spinel.png" width="72" height="72"></p>
                                         </div>
                                     </section>
 
                                     <section id="menu3">
                                         <a href="#menu3">Rares</a>
                                         <div class="un">
-                                        <p><img src="image/8mm-rare/Rubis.png" width="72" height="72"></p>
-                                        <p><img src="image/8mm-rare/Turquoise.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-rare/Rubis.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-rare/Turquoise.png" width="72" height="72"></p>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div id="menu-8mm">
+                                    <section id="menu1">
+                                        <a href="#menu1">zrfezfzefze</a>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/ Ebene.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/BlueLaceAgathe.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/CorailFossilisée.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Dumortierite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Hematite.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/LavaBK.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Nacre.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Obsidian.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Howlite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/JaspeImperiale.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/QuartzRose.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Rhodocrosite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/RoseQuartz.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/OeilDeTaureau.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/PetrifiedWood.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-standar/TigerEye.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Rubyzoisite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/Sodalite.png" width="72" height="72"></p>
+                                        </div>
+                                    </section>
+
+                                    <section id="menu2">
+                                        <a href="#menu2">zef</a>
+                                        <div class="un">
+                                            <p><img src="image/8mm-premium/Eagle.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Garnet.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Hypersthene.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Labradorite.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/LapisLazuli.png" width="72" height="72"></p>
+                                        </div>
+                                        <div class="un">
+                                            <p><img src="image/8mm-premium/OeilDeFaucon.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-premium/Spinel.png" width="72" height="72"></p>
                                         </div>
                                     </section>
                                 </div>
@@ -176,8 +223,9 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
 
 </footer>
 
-<script src="jquery/dist/jquery.min.js"></script>
-<script src="app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 
 </html>
