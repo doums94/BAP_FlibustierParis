@@ -75,8 +75,10 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                             <b>Modèle :</b>
                             <br>
                             <br>
-                            <input TYPE="radio" NAME=Modele VALUE=Marie>Simple rang
-                            <input TYPE="radio" NAME=Modele VALUE=Divorce class="decale1">Double rang
+                            <input type="radio" name="Modele" value="Simple" id="Simple">
+                            <label for="Simple">Simple rang</label>
+                            <input type="radio" name="Modele" value="Double" id="Double">
+                            <label for="Double">Double rang</label>
                             <br>
                             <br>
                             <br>
@@ -95,12 +97,16 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                         <br>
                         <div><b>Tailles du bracelet :</b></div>
                         <br>
-                        <input TYPE="radio" NAME=Bracelet VALUE=Marie>S
-                        <input TYPE="radio" NAME=Bracelet VALUE=Divorce class="decale3">L
+                        <input type="radio" name="Taille" value="S" id="S">
+                        <label for="S">S</label>
+                        <input type="radio" name="Taille" value="L" id="L">
+                        <label for="L">L</label>
                         <br>
                         <br>
-                        <input TYPE="radio" NAME=Bracelet VALUE=Marie >M
-                        <input TYPE="radio" NAME=Bracelet VALUE=Divorce class="decale4">XL
+                        <input type="radio" name="Taille" value="M" id="M">
+                        <label for="M">M</label>
+                        <input type="radio" name="Taille" value="XL" id="XL">
+                        <label for="XL">XL</label>
                     </div>
                     <div class="tab-content gris" id="mentions">
                         <div class="row">
