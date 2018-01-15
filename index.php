@@ -51,6 +51,33 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                      perles et de la catégorie.</p>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
             <div class="row bas">
@@ -165,20 +192,6 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                         </div>
                                     </section>
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
