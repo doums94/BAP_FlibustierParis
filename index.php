@@ -34,50 +34,36 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
         <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
             <div class="tof">
                 <div class="barre" style="border: 3px solid black">
-                    <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse"
+                       href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         ?
                     </a>
                     <div class="collapse" id="collapseExample">
                         <div class="well">
                             <p>Étape 1 : Choix des tailles</p>
 
-                                  <p>Sélectionner le modèle voulu, puis la tailles des perles
-                                     ainsi que la tailles du bracellet.</p>
+                            <p>Sélectionner le modèle voulu, puis la tailles des perles
+                                ainsi que la tailles du bracellet.</p>
 
                             <p>Étape 2 : Choix des perles</p>
 
-                                  <p>Vous pouvez selectionnez (nbr perles) parmis 3 catégoris :
-                                     basique , premium, et rares. Le prix varie en fonction de la
-                                     perles et de la catégorie.</p>
+                            <p>Vous pouvez selectionnez (nbr perles) parmis 3 catégoris :
+                                basique , premium, et rares. Le prix varie en fonction de la
+                                perles et de la catégorie.</p>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div>
+                        <img src="image/bracelets/6S.png" style="display: none" data-bracelet="6mmS">
+                        <img src="image/bracelets/6M.png" style="display: none" data-bracelet="6mmM">
+                        <img src="image/bracelets/6L.png" style="display: none" data-bracelet="6mmL">
+                        <img src="image/bracelets/6XL.png" style="display: none" data-bracelet="6mmXL">
+                    </div>
+                    <div>
+                        <img src="image/bracelets/8S.png" style="display: none" data-bracelet="8mmS">
+                        <img src="image/bracelets/8M.png" style="display: none" data-bracelet="8mmM">
+                        <img src="image/bracelets/8L.png" style="display: none" data-bracelet="8mmL">
+                        <img src="image/bracelets/8XL.png" style="display: none" data-bracelet="8mmXL">
+                    </div>
                 </div>
             </div>
             <div class="row bas">
@@ -92,8 +78,12 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
         <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
             <div>
                 <ul class="tabs">
-                    <li class="active"><a href="#home">Tailles / modèles</a></li>
-                    <li><a href="#mentions">Perles</a></li>
+                    <li class="active">
+                        <a href="#home">Tailles / modèles</a>
+                    </li>
+                    <li id="tab-pearl" style="display: none;">
+                        <a href="#mentions">Perles</a>
+                    </li>
                 </ul>
                 <div class="tabs-content">
                     <div class="tab-content active" id="home">
@@ -143,8 +133,10 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                         <a href="#menu1">Basique - 0€/perle</a>
                                         <div class="un">
                                             <p><img src="image/8mm-standar/ Ebene.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/BlueLaceAgathe.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/CorailFossilisée.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/BlueLaceAgathe.png" width="72" height="72">
+                                            </p>
+                                            <p><img src="image/8mm-standar/CorailFossilisée.png" width="72"
+                                                    height="72"></p>
                                             <p><img src="image/8mm-standar/Dumortierite.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-standar/Hematite.png" width="72" height="72"></p>
                                         </div>
@@ -153,14 +145,17 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                             <p><img src="image/8mm-standar/Nacre.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-standar/Obsidian.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-standar/Howlite.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/JaspeImperiale.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/JaspeImperiale.png" width="72" height="72">
+                                            </p>
                                         </div>
                                         <div class="un">
                                             <p><img src="image/8mm-standar/QuartzRose.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-standar/Rhodocrosite.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-standar/RoseQuartz.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/OeilDeTaureau.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/PetrifiedWood.png" width="72" height="72"></p>
+                                            <p><img src="image/8mm-standar/OeilDeTaureau.png" width="72" height="72">
+                                            </p>
+                                            <p><img src="image/8mm-standar/PetrifiedWood.png" width="72" height="72">
+                                            </p>
                                         </div>
                                         <div class="un">
                                             <p><img src="image/8mm-standar/TigerEye.png" width="72" height="72"></p>
@@ -192,22 +187,23 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                         </div>
                                     </section>
                                 </div>
-
-
-
                                 <div id="menu-6mm">
                                     <section id="menu1">
                                         <a href="#menu1">Basique - 0€/perle</a>
                                         <div class="un">
-                                            <p><img src="image/6mm-standard/ Labradorite.png" width="72" height="72"></p>
-                                            <p><img src="image/6mm-standard/BlueLaceAgathe.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/ Labradorite.png" width="72" height="72">
+                                            </p>
+                                            <p><img src="image/6mm-standard/BlueLaceAgathe.png" width="72" height="72">
+                                            </p>
                                             <p><img src="image/6mm-standard/Ebene.png" width="72" height="72"></p>
                                             <p><img src="image/6mm-standard/Howlite.png" width="72" height="72"></p>
-                                            <p><img src="image/6mm-standard/JaspeImperiale.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/JaspeImperiale.png" width="72" height="72">
+                                            </p>
                                         </div>
                                         <div class="un">
                                             <p><img src="image/6mm-standard/LavaBK.png" width="72" height="72"></p>
-                                            <p><img src="image/6mm-standard/PetrifiedWood.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/PetrifiedWood.png" width="72" height="72">
+                                            </p>
                                             <p><img src="image/6mm-standard/Sardonis.png" width="72" height="72"></p>
                                             <p><img src="image/6mm-standard/Sodalite.png" width="72" height="72"></p>
 
@@ -231,8 +227,11 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                 </div>
             </div>
             <div>
-                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">Prix</button>
-                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">Finalisation</button>
+                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">Prix
+                </button>
+                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">
+                    Finalisation
+                </button>
             </div>
         </div>
     </div>

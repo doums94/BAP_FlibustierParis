@@ -51,6 +51,7 @@ L'orsque l'on clique sur un onglet :
     var menu8mm = $('#menu-8mm');
 
     $('input[name="perle"]').on('change', function () {
+        $('#tab-pearl').show();
         var el = $(this);
 
         if (el.val() === '6mm') {
@@ -60,7 +61,21 @@ L'orsque l'on clique sur un onglet :
             menu6mm.hide();
             menu8mm.show();
         }
+
+        updateBracelet();
     });
+
+    $('input[name="taille"]').on('change', function () {
+        updateBracelet();
+    });
+    
+    function updateBracelet() {
+        $('[data-bracelet]').hide();
+
+        var selector = $('input[name="perle"]:checked').val() + $('input[name="taille"]:checked').val();
+
+        $('[data-bracelet="'+selector+'"]').show();
+    }
 
 
 })(jQuery);
