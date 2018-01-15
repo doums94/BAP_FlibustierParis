@@ -75,9 +75,9 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                             <b>Modèle :</b>
                             <br>
                             <br>
-                            <input type="radio" name="Modele" value="Simple" id="Simple">
+                            <input type="radio" name="modele" value="Simple" id="Simple">
                             <label for="Simple">Simple rang</label>
-                            <input type="radio" name="Modele" value="Double" id="Double">
+                            <input type="radio" name="modele" value="Double" id="Double">
                             <label for="Double">Double rang</label>
                             <br>
                             <br>
@@ -97,23 +97,23 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                         <br>
                         <div><b>Tailles du bracelet :</b></div>
                         <br>
-                        <input type="radio" name="Taille" value="S" id="S">
+                        <input type="radio" name="taille" value="S" id="S">
                         <label for="S">S</label>
-                        <input type="radio" name="Taille" value="L" id="L">
+                        <input type="radio" name="taille" value="L" id="L">
                         <label for="L">L</label>
                         <br>
                         <br>
-                        <input type="radio" name="Taille" value="M" id="M">
+                        <input type="radio" name="taille" value="M" id="M">
                         <label for="M">M</label>
-                        <input type="radio" name="Taille" value="XL" id="XL">
+                        <input type="radio" name="taille" value="XL" id="XL">
                         <label for="XL">XL</label>
                     </div>
                     <div class="tab-content gris" id="mentions">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-">
-                                <div id="menu-6mm">
+                                <div id="menu-8mm">
                                     <section id="menu1">
-                                        <a href="#menu1">Basique</a>
+                                        <a href="#menu1">Basique - 0€/perle</a>
                                         <div class="un">
                                             <p><img src="image/8mm-standar/ Ebene.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-standar/BlueLaceAgathe.png" width="72" height="72"></p>
@@ -143,7 +143,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                     </section>
 
                                     <section id="menu2">
-                                        <a href="#menu2">Premium</a>
+                                        <a href="#menu2">Premium - 2€/perle</a>
                                         <div class="un">
                                             <p><img src="image/8mm-premium/Eagle.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-premium/Garnet.png" width="72" height="72"></p>
@@ -158,56 +158,56 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                                     </section>
 
                                     <section id="menu3">
-                                        <a href="#menu3">Rares</a>
+                                        <a href="#menu3">Rares - 10€/perle</a>
                                         <div class="un">
                                             <p><img src="image/8mm-rare/Rubis.png" width="72" height="72"></p>
                                             <p><img src="image/8mm-rare/Turquoise.png" width="72" height="72"></p>
                                         </div>
                                     </section>
                                 </div>
-                                <div id="menu-8mm">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div id="menu-6mm">
                                     <section id="menu1">
-                                        <a href="#menu1">zrfezfzefze</a>
+                                        <a href="#menu1">Basique - 0€/perle</a>
                                         <div class="un">
-                                            <p><img src="image/8mm-standar/ Ebene.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/BlueLaceAgathe.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/CorailFossilisée.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Dumortierite.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Hematite.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/ Labradorite.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/BlueLaceAgathe.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/Ebene.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/Howlite.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/JaspeImperiale.png" width="72" height="72"></p>
                                         </div>
                                         <div class="un">
-                                            <p><img src="image/8mm-standar/LavaBK.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Nacre.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Obsidian.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Howlite.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/JaspeImperiale.png" width="72" height="72"></p>
-                                        </div>
-                                        <div class="un">
-                                            <p><img src="image/8mm-standar/QuartzRose.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Rhodocrosite.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/RoseQuartz.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/OeilDeTaureau.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/PetrifiedWood.png" width="72" height="72"></p>
-                                        </div>
-                                        <div class="un">
-                                            <p><img src="image/8mm-standar/TigerEye.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Rubyzoisite.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-standar/Sodalite.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/LavaBK.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/PetrifiedWood.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/Sardonis.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-standard/Sodalite.png" width="72" height="72"></p>
+
                                         </div>
                                     </section>
 
                                     <section id="menu2">
-                                        <a href="#menu2">zef</a>
+                                        <a href="#menu2">Premium - 1€/perle</a>
                                         <div class="un">
-                                            <p><img src="image/8mm-premium/Eagle.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-premium/Garnet.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-premium/Hypersthene.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-premium/Labradorite.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-premium/LapisLazuli.png" width="72" height="72"></p>
-                                        </div>
-                                        <div class="un">
-                                            <p><img src="image/8mm-premium/OeilDeFaucon.png" width="72" height="72"></p>
-                                            <p><img src="image/8mm-premium/Spinel.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-premium/Amethyste.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-premium/Garnet.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-premium/Kyanite.png" width="72" height="72"></p>
+                                            <p><img src="image/6mm-premium/Malachite.png" width="72" height="72"></p>
                                         </div>
                                     </section>
                                 </div>
