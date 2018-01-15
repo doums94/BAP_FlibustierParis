@@ -53,7 +53,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                         </div>
                     </div>
                     <div>
-                        <img src="image/bracelets/6S.png" style="display: none" data-bracelet="6mmS">
+                        <img src="image/bracelets/6S.png" style="display: none" data-bracelet="6mmS" class="image-bracelets" width="100%">
                         <img src="image/bracelets/6M.png" style="display: none" data-bracelet="6mmM">
                         <img src="image/bracelets/6L.png" style="display: none" data-bracelet="6mmL">
                         <img src="image/bracelets/6XL.png" style="display: none" data-bracelet="6mmXL">
