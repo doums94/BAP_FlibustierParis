@@ -63,7 +63,7 @@ ul.tabs, li.tabs {
 
 .tab-content.active {
     display: block;
-
+    height: 300px;
 }
 
 
