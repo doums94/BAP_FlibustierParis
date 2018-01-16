@@ -33,7 +33,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
     <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
             <div class="tof">
-                <div class="barre" style="border: 3px solid #969A99">
+                <div class="barre" style="border: 0 solid #969A99">
                     <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse"
                        href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         ?
