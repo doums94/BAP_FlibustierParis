@@ -12,7 +12,6 @@ L'orsque l'on clique sur un onglet :
     var afficherOnglet = function (a) {
         var li = a.parentNode;
         var div = a.parentNode.parentNode.parentNode;
-
         if (li.classList.contains('active')) {
             return false
         }
@@ -31,6 +30,7 @@ L'orsque l'on clique sur un onglet :
     for (var i = 0; i < tabs.length; i++){
         tabs[i].addEventListener('click', function (e) {
             afficherOnglet(this)
+
         })
     }
 
@@ -76,6 +76,24 @@ L'orsque l'on clique sur un onglet :
 
         $('[data-bracelet="'+selector+'"]').show();
     }
+
+
+    $("#m1").click(function(){
+        $(".un").css('display','inline-block')
+    });
+    $("#m2").click(function(){
+        $(".deux").css('display','inline-block')
+    });
+    $("#m3").click(function(){
+        $(".trois").css('display','inline-block')
+    });
+    $("#m4").click(function(){
+        $(".quatre").css('display','inline-block')
+    });
+    $("#m5").click(function(){
+        $(".cinq").css('display','inline-block')
+    });
+
 
 
 })(jQuery);

@@ -63,7 +63,7 @@ ul.tabs, li.tabs {
 
 .tab-content.active {
     display: block;
-    height: 300px;
+    height: 400px;
 }
 
 
@@ -95,8 +95,12 @@ section a {
 }
 
 section:target p {
-    max-height: 20em;
-    padding: 10px;
+/*    max-height: 20em;
+    padding: 10px;*/
+
+    max-height: none;
+    width: 43px;
+
 }
 
 
@@ -142,10 +146,14 @@ section:target p {
     background: grey;
 }
 
-.un {
-     display: flex;
+.un, .deux, .trois,.quatre, .cinq {
+     display: none;
+    text-align: center;
 }
+.perle{
+    margin: 9px 3px;
 
+}
 #menu1 {
     background: #e4e4e4;
 }
