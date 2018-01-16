@@ -33,7 +33,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
     <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
             <div class="tof">
-                <div class="barre" style="border: 3px solid black">
+                <div class="barre" style="border: 3px solid">
                     <a class="btn btn-default white btn-circle " role="button" data-toggle="collapse"
                        href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         ?
@@ -54,15 +54,15 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                     </div>
                     <div>
                         <img src="image/bracelets/6S.png" style="display: none" data-bracelet="6mmS" class="image-bracelets" width="100%">
-                        <img src="image/bracelets/6M.png" style="display: none" data-bracelet="6mmM">
-                        <img src="image/bracelets/6L.png" style="display: none" data-bracelet="6mmL">
-                        <img src="image/bracelets/6XL.png" style="display: none" data-bracelet="6mmXL">
+                        <img src="image/bracelets/6M.png" style="display: none" data-bracelet="6mmM" class="image-bracelets" width="100%">
+                        <img src="image/bracelets/6L.png" style="display: none" data-bracelet="6mmL" class="image-bracelets" width="100%">
+                        <img src="image/bracelets/6XL.png" style="display: none" data-bracelet="6mmXL" class="image-bracelets" width="100%">
                     </div>
                     <div>
-                        <img src="image/bracelets/8S.png" style="display: none" data-bracelet="8mmS">
-                        <img src="image/bracelets/8M.png" style="display: none" data-bracelet="8mmM">
-                        <img src="image/bracelets/8L.png" style="display: none" data-bracelet="8mmL">
-                        <img src="image/bracelets/8XL.png" style="display: none" data-bracelet="8mmXL">
+                        <img src="image/bracelets/8S.png" style="display: none" data-bracelet="8mmS" class="image-bracelets" width="100%">
+                        <img src="image/bracelets/8M.png" style="display: none" data-bracelet="8mmM" class="image-bracelets" width="100%">
+                        <img src="image/bracelets/8L.png" style="display: none" data-bracelet="8mmL" class="image-bracelets" width="100%">
+                        <img src="image/bracelets/8XL.png" style="display: none" data-bracelet="8mmXL" class="image-bracelets" width="100%">
                     </div>
                 </div>
             </div>
@@ -227,8 +227,6 @@ $bdd = new PDO('mysql:host=localhost;dbname=flibustier_paris;charset=utf8', 'roo
                 </div>
             </div>
             <div>
-                <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">Prix
-                </button>
                 <button type="button" class="btn black btn-lg btn-block hidden-md hidden-lg" style="color: white">
                     Finalisation
                 </button>
