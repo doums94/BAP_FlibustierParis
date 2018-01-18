@@ -69,6 +69,7 @@ $res = appel_image($bdd);
                         <img src="image/bracelets/8L.png" style="display: none" data-bracelet="8mmL" class="image-bracelets" width="100%">
                         <img src="image/bracelets/8XL.png" style="display: none" data-bracelet="8mmXL" class="image-bracelets" width="100%">
                     </div>
+                    <div id="pearlContainer"></div>
                 </div>
             </div>
             <div class="row bas">

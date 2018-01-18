@@ -95,5 +95,52 @@ L'orsque l'on clique sur un onglet :
     });
 
 
+    // Config
+    const cache = {
+        'container': $('#pearlContainer'),
+        'containerWidth': null,
+        'containerHeight': null,
+        'spacePerPearl': null,
+        'elements': []
+    };
+    let numberPearls = 32;
+
+
+    // Functions
+    function updateValues() {
+        cache.containerWidth = cache.container.width();
+        cache.containerHeight = cache.container.height();
+        cache.spacePerPearl = cache.containerWidth / numberPearls < 20 ? 20 : cache.containerWidth / numberPearls;
+    }
+
+    function updateView() {
+        console.log(cache.containerHeight);
+        for (let element of cache.elements) {
+            element.css({
+                'height': `${cache.spacePerPearl}px`,
+                'width': `${cache.spacePerPearl}px`
+            });
+        }
+    }
+
+    updateValues();
+
+
+    console.log(cache.spacePerPearl);
+
+    for (let i = 0; i < numberPearls; i++) {
+        let pearl = $(`<div class="pearl"></div>`);
+        cache.container.append(pearl);
+        cache.elements.push(pearl);
+        console.log(cache.containerWidth);
+    }
+
+    updateView();
+
+
+    $(window).resize(function () {
+        updateValues();
+        updateView();
+    });
 
 })(jQuery);
