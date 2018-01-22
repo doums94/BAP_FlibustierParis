@@ -17,7 +17,7 @@ L'orsque l'on clique sur un onglet :
         }
 
         // On retire la class active de l'onglet actif
-        $('.tabs .active').removeClass('active');
+        $('.tabs.active').removeClass('active');
         li.classList.add('active');
 
         // On retire la class active sur le contenu actif
@@ -68,7 +68,7 @@ L'orsque l'on clique sur un onglet :
     $('input[name="taille"]').on('change', function () {
         updateBracelet();
     });
-    
+
     function updateBracelet() {
         $('[data-bracelet]').hide();
 
@@ -95,6 +95,18 @@ L'orsque l'on clique sur un onglet :
     });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     // Config
     const cache = {
         'container': $('#pearlContainer'),
@@ -110,7 +122,7 @@ L'orsque l'on clique sur un onglet :
     function updateValues() {
         cache.containerWidth = cache.container.width();
         cache.containerHeight = cache.container.height();
-        cache.spacePerPearl = cache.containerWidth / numberPearls < 20 ? 20 : cache.containerWidth / numberPearls;
+        cache.spacePerPearl = cache.containerWidth / numberPearls < 20 ? 32 : cache.containerWidth / numberPearls;
     }
 
     function updateView() {

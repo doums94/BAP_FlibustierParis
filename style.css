@@ -179,13 +179,12 @@ section:target p {
     display: flex;
     padding: 0 25px;
     width: 100%;
-    min-height: 250px;
-    background-color: grey;
     box-sizing: border-box;
     align-items: center;
 }
 
 .pearl {
+    margin-top: 70%;
     display: inline-block;
     border-radius: 50%;
     background-image: url('image/pearl-default.png');
@@ -194,3 +193,12 @@ section:target p {
     box-shadow: 0 2px 3px black;
     flex-shrink: 0;
 }
+
+.horizontal-scroll-wrapper {
+    width: 100px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+

@@ -25,6 +25,7 @@ $res = appel_image($bdd);
 
 <body>
 
+
 <div align="center" class="col">
     <img src="image/logo_fr.jpg">
 </div>
@@ -57,13 +58,13 @@ $res = appel_image($bdd);
                                 perles et de la catégorie.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="b">
                         <img src="image/bracelets/6S.png" style="display: none" data-bracelet="6mmS" class="image-bracelets" width="100%">
                         <img src="image/bracelets/6M.png" style="display: none" data-bracelet="6mmM" class="image-bracelets" width="100%">
                         <img src="image/bracelets/6L.png" style="display: none" data-bracelet="6mmL" class="image-bracelets" width="100%">
                         <img src="image/bracelets/6XL.png" style="display: none" data-bracelet="6mmXL" class="image-bracelets" width="100%">
                     </div>
-                    <div>
+                    <div class="b">
                         <img src="image/bracelets/8S.png" style="display: none" data-bracelet="8mmS" class="image-bracelets" width="100%">
                         <img src="image/bracelets/8M.png" style="display: none" data-bracelet="8mmM" class="image-bracelets" width="100%">
                         <img src="image/bracelets/8L.png" style="display: none" data-bracelet="8mmL" class="image-bracelets" width="100%">
